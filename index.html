@@ -708,6 +708,19 @@
 
   .footer p { margin: 0; }
 
+  .footer a {
+    color: var(--coral-deep);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(185, 84, 69, 0.32);
+    padding-bottom: 1px;
+    transition: color 0.2s ease, border-color 0.2s ease;
+  }
+
+  .footer a:hover {
+    color: var(--ink);
+    border-color: var(--ink);
+  }
+
   .footer .heart {
     color: var(--coral);
     font-size: 13px;
@@ -1039,6 +1052,7 @@
 
   <footer class="footer">
     <p>本页为非商业同人作品，角色版权归原作者 <strong>@黄小B</strong> 所有。</p>
+    <p><a href="https://github.com/swvx0101/shuangwa-chengxing" target="_blank" rel="noreferrer">GitHub 仓库 · shuangwa-chengxing</a></p>
     <p>Made with <span class="heart">♥</span> and a little stardust.</p>
   </footer>
 
